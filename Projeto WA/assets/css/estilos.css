@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Freeman', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: whitesmoke;
+}
+:root{
+    --prime: red;
+}
+body{
+    background-color: rgb(0, 0, 0, 0.9);
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(../images/banner.jpg) repeat-y;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+/*--------barra de navegacao--------*/
+.navigationbar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 30px 120px;
+    background-color: transparent;
+    justify-content: space-between;
+    z-index: 1111;
+    transition: 0.5s ease;
+    
+}
+.navigationbar1{
+    width: 50%;
+    display: flex;
+    position: fixed;
+    padding: 30px 120px;
+    background-color: transparent;
+    justify-content: space-between;
+    z-index: 1111;
+    transition: 0.5s ease;
+}
+.navigationbar2{
+    width: 100%;
+    display: flex;
+    position: top;
+    padding: 30px 120px;
+    background-color: transparent;
+    justify-content: space-between;
+    z-index: 1111;
+    transition: 0.5s ease;
+}
+
+.logo{
+    font-size: 2.8em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    z-index: 1111;
+}
+
+.logo B{
+    color: var(--prime);
+}
+.logo:hover{
+    color: whitesmoke;
+    }
+ol{
+    display: flex;
+    margin: auto 0;
+}
+ol li{
+    list-style: none;
+    margin-right: 20px;
+}
+ol li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ol li:hover a{
+    color:var(--prime);
+}
+.view{
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+/*---------------botão "logout"----------*/
+.logout{
+    position: absolute;
+    top:8%;
+    right:10%;
+    z-index: 5;
+    background: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;  
+    color: whitesmoke;   
+}
+.logout:hover{
+    background: whitesmoke;
+    color: red;
+}
+/*---------------botão "anterior"----------*/
+.anterior {
+    position: absolute;
+    bottom:8%;
+    left:10%;
+    z-index: 5;
+    background: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;  
+    color: whitesmoke;   
+}
+.anterior:hover{
+    background: whitesmoke;
+    color: red;
+}
+/*---------------botão "seguinte"----------*/
+.seguinte {
+    position: absolute;
+    bottom:8%;
+    right:10%;
+    z-index: 5;
+    background: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;  
+    color: whitesmoke;   
+}
+.seguinte:hover{
+    background: whitesmoke;
+    color: red;
+}
+
+.card{
+    margin-top:5%;
+    z-index: 6;
+}
+b{
+    color: red;
+}
+.btn{
+    background-color: red;
+    text-transform: uppercase ;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+
+
+
+
